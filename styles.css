@@ -1,0 +1,127 @@
+html {
+    background-color: #EBEAD1;
+    box-sizing: border-box;
+    font-family: outfit-light;
+    font-size: 12px;
+}
+
+body {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: outfit-light;
+    src: url(./assets/fonts/outfit/static/Outfit-Light.ttf);
+}
+
+@font-face {
+    font-family: outfit-regular;
+    src: url(./assets/fonts/outfit/static/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: outfit-semibold;
+    src: url(./assets/fonts/outfit/static/Outfit-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: youngserif;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+.recipe-card {
+    background-color: white;
+    padding: 24px;
+    width: 550px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2 {
+    font-family: youngserif;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 1);
+}
+
+h2 {
+    color: #5C5039;
+    font-weight: normal;
+}
+
+.prep-time-container {
+    background-color: #F2F7FF;
+    padding-left: 20px;
+    padding-bottom: 1px;
+}
+
+.prep-time-header {
+    padding-top: 14px;
+    color: #182440;
+    font-family: outfit-semibold;
+    font-size: 1.2rem;
+}
+
+.prep-time-list {
+    border: 0px;
+}
+
+ul, ol {
+    padding-left: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+li {
+    padding-left: 12px;
+    margin-bottom: 8px;
+}
+
+.prep-time-list li::marker, .ingredients-list li::marker {
+    font-size: 0.8rem;
+}
+
+ol li::marker {
+    color: #5C5039;
+    font-family: outfit-semibold;
+}
+
+.outfit-sb {
+    font-family: outfit-semibold;
+}
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+}
+
+td {
+    padding-left: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 50%;
+}
+
+.table-value {
+    padding-left: 0px;
+    font-family: outfit-semibold;
+    color: #5C5039;
+}
+
+.recipe-img {
+    width: 100%;
+}
+
+hr {
+    opacity: 0.1;
+}
